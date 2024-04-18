@@ -1,0 +1,19 @@
+{
+  "name": "openagents-fetch_plugin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node esbuild.js && extism-js dist/index.js -i src/index.d.ts -o dist/plugin.wasm"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "esbuild": "^0.20.2"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "turndown": "^7.1.3"
+  }
+}
